@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Noto+Serif:wght@400;700&family=Oswald:wght@600&family=Quicksand:wght@500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="media.css">
+</head>
+<body>
+
+<button class="butt" id="regBtn">Registration</button>
+<button class="butt" id="signBtn">Sign in</button>
+<br>
+<form hidden name="regForm">
+  <h3>RESISTR</h3>
+  <label></label>
+
+  <label> <input class="input" name="login" placeholder="login" type="text"></label>
+  <br>
+  <label> <input class="input" name="password" placeholder="Password" type="password"></label>
+  <br>
+  <label> <input class="input" name="email" placeholder="ваш email" type="email"> </label>
+  <br>
+  <label class="radio">
+    Man
+    <input value="man" name="radio" type="radio">
+  </label>
+  <label class="radio">
+    Girl
+    <input value="female" name="radio" type="radio">
+  </label>
+  <label class="radio"> Somebody <input name="radio" type="radio"> </label>
+  <br>
+  <br>
+  <select name="lang">
+     Выберите страну
+    <option name="en">En</option>
+    <option name="ru">Ru</option>
+    <option name="kg">Kg</option>
+
+  </select>
+  <br>
+  <button class="button" id="sub">registr</button>
+</form>
+
+<form class="form" hidden name="signForm">
+  <h1>SIGN IN</h1>
+  <label>  <input class="input" placeholder="login" name="login" type="text">  </label>
+  <br>
+
+    <label> <input class="input" placeholder="@gmail.com" type="email"> </label>
+
+  <br>
+
+  <label>
+    <input class="input" placeholder="*******" name="password" type="password">
+  </label>
+  <br>
+  <button class="button" id="submit" type="submit">come in</button>
+
+</form>
+
+
+<script src="script.js"></script>
+</body>
+</html>

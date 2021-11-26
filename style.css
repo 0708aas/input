@@ -1,0 +1,83 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+body {
+    background: url("images/violet.jpeg");
+}
+
+h3 {
+    margin-top: 10px;
+    color: yellow;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+}
+
+.radio {
+    font-size: 15px;
+    color: white;
+    margin-bottom: 20px;
+
+
+}
+
+select {
+    background: none;
+    color: white;
+    border: 1px solid white;
+    margin-bottom: 10px;
+}
+
+form {
+    text-align: center;
+    margin: 100px auto;
+    padding: 5px;
+    border: 1px solid white;
+    width: 300px;
+    height: 350px;
+    border-radius: 30px;
+
+}
+h1{
+    margin-top: 10px;
+    color: yellow;
+    font-family: 'Quicksand', sans-serif;
+}
+.form {
+    text-align: center;
+    margin: 100px auto;
+    padding: 5px;
+    border: 1px solid white;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.input {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border: none;
+    background: white;
+    width: 220px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.button {
+    padding: 5px 10px;
+    background: none;
+    border: none;
+    background: white;
+    width: 240px;
+    height: 35px;
+    border-radius: 5px;
+    color: mediumaquamarine;
+    font-size: 17px;
+}
+.butt{
+    background: none;
+    color: white;
+    padding: 5px;
+    width: 100px;
+}
